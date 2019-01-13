@@ -8,7 +8,7 @@
 
 <i>YandexWeather::get_region_id($city)</i> - обращается к <a>https://pogoda.yandex.ru/static/cities.xml</a> и возвращает код региона выбранного города $city
 <br>
-<i>YandexWeather::get_weather($region_id)</i> - обращается к <a>https://pogoda.yandex.ru/static/cities.xml</a> и возвращает прогноз погоды в $region_id
+<i>YandexWeather::get_weather($region_id)</i> - обращается к <a>https://export.yandex.ru/bar/reginfo.xml?region=</a> и возвращает прогноз погоды в $region_id
 <br><br>
 Пример:<br>
 <pre>
